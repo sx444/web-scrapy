@@ -1,6 +1,6 @@
-#####################################
-##get zip codes from city-data page##
-#####################################
+'''
+get economical data by zip code using web scraper
+'''
 from bs4 import BeautifulSoup
 import urllib2
 import re
