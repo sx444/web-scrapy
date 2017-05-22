@@ -64,11 +64,3 @@ for zip_code, zip_page in dict_zip.iteritems():
 	expr = re.compile(r"cost of living index in .*?:</b>\s*(\d+(\.\d+)?)\s*<b>")
 	pop_density[zip_code] = expr.findall(pageSourceCode)[0][0]
 
-
-
-
-
-'''get education info'''
-
-
-
